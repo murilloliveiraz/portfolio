@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Murillo Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h2>Murillo Oliveira</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecs">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <section class="meunome">
+                <div class="hello_world">
+                    <img src="images/waving-hand_medium-dark-skin-tone_1f44b-1f3fe_1f3fe.png" alt="">
+                    <h4>Hello World!</h4>
+                </div>
+                <h1>Murillo <br> Oliveira</h1>
+                <div>
+                    <img src="images/man-technologist-medium-dark-skin-tone_1f468-1f3fe-200d-1f4bb.png" alt="">
+                    <h4>FullStack Developer</h4>
+                </div>
+                <div>
+                    <a class="link" href="https://github.com/murilloliveiraz"><img src="images/github.svg" alt=""></a>
+                    <a class="link" href="https://www.linkedin.com/in/murilloliveiraz/"><img src="images/linkedin.svg" alt=""></a>
+                </div>
+            </section>
+            <img class="img_principal" src="images/undraw_programming_re_kg9v (1).svg" alt="">
+            
+        </div>
+
+        <div id="sobre">
+            <section class="sobre_mim">
+                <h1>Quem sou eu ?</h1>
+                <p>Sou um estudante de Desenvolvimento de Sistemas apaixonado por tecnologia e inovação, atualmente estou cursando o Técnico em Desenvolvimento de Sistemas no SENAI e o curso de programação FullStack do Programadores do Amanhã , estou comprometido em expandir meus conhecimentos e habilidades como desenvolvedor e estou em busca de oportunidades para evoluir e adquirir experiência. Sou muito dedicado e altamente proativo , procuro sempre me comunicar de maneira clara e eficaz , tenho facilidade em trabalhar em equipe , além de gerenciar bem o meu tempo e possuir flexibilidade e adaptação a diferentes situações</p>
+                </section>
+        </div>
+
+        <div id="tecs">
+            <section class="tecnologias">
+                <h1>Tecnologias e Habilidades</h1>
+                <h4>Tecnologias que eu uso no dia a dia</h4>
+                <div class="tecno">
+                    <img src="images/html.svg" alt="">
+                    <img src="images/css.svg" alt="">
+                    <img src="images/js.svg" alt="">
+                    <img src="images/git.svg" alt="">
+                </div>
+                <h4>Tecnologias que eu estou estudando</h4>
+                <div class="tecno">
+                    <img src="images/react.svg" alt="">
+                    <img src="images/js.svg" alt="">
+                    <img src="images/ts.svg" alt="">
+                    <img src="images/node.svg" alt="">
+                    <img src="images/next.svg" alt="">
+                    <img src="images/git.svg" alt="">
+                    <img src="images/mysql.svg" alt="">
+                </div>
+            </section>
+        </div>
+
+        <div id="projetos">
+            <h1 class="projeto_title">Projetos e Trabalhos</h1>
+            <div class="cards">
+                <div class="card-project">
+                    <div class="card-text">
+                        <h2>SmartHome</h2>
+                        <p> O projeto da Smart Home foi desenvolvido para exercitar meus conhecimentos de HTML,CSS e JavaScript. Ele contém responsividade a dispositivos móveis e desktops, e possui confirmação de envio de formulario pelo Formspree.</p>
+                    </div>
+                    <a target="_blank" href="https://murilloliveiraz.github.io/SmartHome/"><img src="images/Captura de tela 2023-07-07 213215.png" alt=""></a>
+                </div>
+                <div class="card-project">
+                    <div class="card-text">
+                        <h2>Dashboard</h2>
+                        <p> O projeto consiste em um dashboard de monitoramento de vendas, envios e compras de uma loja, possui responsividade adptativa a varios dispositivos, além de possuir adaptatividade a diferentes temas de background.</p>
+                    </div>
+                    <a target="_blank" href="https://murilloliveiraz.github.io/Dashboard.github.io/"><img src="images/dashboard2.png" alt=""></a>
+                    
+                </div>
+                
+                <div class="card-project">
+                    <div class="card-text">
+                        <h2>DentLab</h2>
+                        <p>Projeto da clicina de dentistas foi desenvolvido durante as aulas do Técnico em Desenvolvimento de Sistemas para exercitar e desenvolver nossos conhecimentos com HTML,CSS, JavaScript e FireBase além de Grid Layout</p>
+                    </div>
+                    <a target="_blank" href="https://murilloliveiraz.github.io/DentLab/"><img src="images/Captura de tela 2023-07-07 213302.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/murilloliveiraz"><img src="images/github.svg" alt="">Github</a>
+            <a href=""><img src="images/Mail-Icon-White-on-Grey.png" alt="">murillo1047@gmail.com</a>
+            <a href="https://www.linkedin.com/in/murilloliveiraz/"><img src="images/linkedin.svg" alt="">Linkedin</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+                ScrollReveal({
+    // reset: true,
+    distance : '60px',
+    duration : 1500,
+    delay : 200
+    });
+    ScrollReveal().reveal('.meunome', {delay:500 , origin: 'left'});
+    ScrollReveal().reveal('.img_principal', {delay:500 , origin: 'right'});
+    ScrollReveal().reveal('.sobre_mim', {delay:400 , origin: 'bottom'});
+    ScrollReveal().reveal('.tecnologias', {delay:400 , origin: 'bottom'});
+    ScrollReveal().reveal('.tecno', {delay:600 , origin: 'bottom'});
+    ScrollReveal().reveal('.projeto_title', {delay:500 , origin: 'bottom'});
+    ScrollReveal().reveal('.card-project', {delay:500 , origin: 'left'});
+    </script>
+</body>
+</html>
