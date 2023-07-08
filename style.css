@@ -247,7 +247,8 @@ footer div {
     }
 
     .sobre_mim{
-        height: 700px;
+        height: 650px;
+        margin-bottom: 80px;
     }
    
     .tecno{
@@ -256,13 +257,23 @@ footer div {
         flex-wrap: wrap;
     }
 
+    .tecnologias{
+        height: 600px;
+        margin-bottom: 60px;
+    }
+
     .sobre_mim h1,.tecnologias h1,#projetos h1{
         font-size: 32px;
         text-align: center;
     }
 
+    #projetos{
+        height: 700px;
+        margin-bottom: 60px;
+    }
+
     .cards{
-        height: 1200px;
+        height: 500px;
         width: 95%;
         gap: 25px;
         justify-content: flex-start;
@@ -285,8 +296,9 @@ footer div {
     }
 
     footer div{
-        font-size: 14px;
-        justify-content: center;
+        font-size: 12px;
+        justify-content: space-around;
+        margin: 0 12px;
         align-items: center;
     }
 }
