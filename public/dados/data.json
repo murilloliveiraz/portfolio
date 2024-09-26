@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "projectTitle": "VITAL",
+            "projectDescription": "VITAL",
+            "logo": "/src/assets/logo_vital.png",
+            "stack": [
+                ".NET",
+                "Angular"
+            ],
+            "image": "/src/assets/vital.png"
+        }
+    ]
+}

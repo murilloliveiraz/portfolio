@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Sobre from './sections/sobre/Sobre.jsx'
 import Project from './components/project/Project.jsx'
+import Stack from './components/stack/Stack.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Sobre /> },
       { path: '/card', element: <Project /> },
+      { path: '/stack', element: <Stack /> },
       { path: '*', element: <Sobre /> }
     ]
   }
