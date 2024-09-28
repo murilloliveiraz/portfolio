@@ -4,8 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Sobre from './sections/sobre/Sobre.jsx'
-import Project from './components/project/Project.jsx'
-import Stack from './components/stack/Stack.jsx'
+import Projetos from './sections/projetos/Projetos.jsx'
+import TechStack from './sections/tech-stack/TechStack.jsx'
+import Contato from './sections/contato/Contato.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,9 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Sobre /> },
-      { path: '/card', element: <Project /> },
-      { path: '/stack', element: <Stack /> },
+      { path: '/projetos', element: <Projetos /> },
+      { path: '/stack', element: <TechStack /> },
+      { path: '/contato', element: <Contato /> },
       { path: '*', element: <Sobre /> }
     ]
   }
