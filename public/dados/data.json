@@ -3,7 +3,7 @@
         {
             "title": "VITAL",
             "description": "Startup focada em desenvolver SaaS para a área da saúde. Desenvolvemos uma aplicacao para centralizar resultados e laudos de exames, agendar consultas via telemedicina, e 3 interfaces (Paciente, Medico e Administrador)",
-            "logo": "/src/assets/logo_vital.png",
+            "logo": "https://github.com/murilloliveiraz/portfolio/blob/main/src/assets/logo_vital.png",
             "stack": [
                 ".NET",
                 "Angular",
@@ -15,7 +15,7 @@
                 "Postgres SQL",
                 "Terraform"
             ],
-            "image": "/src/assets/vital.png"
+            "image": "https://github.com/murilloliveiraz/portfolio/blob/main/src/assets/vital.png"
         },
         {
             "title": "NFKey",
@@ -28,12 +28,12 @@
                 "Angular",
                 "OCR"
             ],
-            "image": "/src/assets/python.png"
+            "image": "https://github.com/murilloliveiraz/portfolio/blob/main/src/assets/python.png"
         },
         {
             "title": "InsiderE",
             "description": "Startup focada promover a FormulaE no Brasil. Criamos um Fantasy Game da modalidade com o intuito de criar uma comunidade forte e engajada que é a base da promoção do esporte.",
-            "logo": "/src/assets/insider.png",
+            "logo": "https://github.com/murilloliveiraz/portfolio/blob/main/src/assets/insider.png",
             "stack": [
                 "React.JS",
                 "CSS",
@@ -41,7 +41,7 @@
                 "Arduino ESP32",
                 "Wookwi"
             ],
-            "image": "/src/assets/insiderE.png"
+            "image": "https://github.com/murilloliveiraz/portfolio/blob/main/src/assets/insiderE.png"
         }
     ],
     "stack": [
