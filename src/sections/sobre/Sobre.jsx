@@ -1,15 +1,18 @@
-import { github, linkedin, man_icon_header, tchauzin } from "../../assets"
-import murilloHome from "/src/assets/home.png"
+import github from "/assets/github.svg"
+import linkedin from "/assets/linkedin.svg"
+import man_icon_header from "/assets/man-technologist-medium-dark-skin-tone_1f468-1f3fe-200d-1f4bb.png"
+import tchauzin from "/assets/waving-hand_medium-dark-skin-tone_1f44b-1f3fe_1f3fe.png"
+import murilloHome from "/assets/home.png"
 
 const Sobre = () => {
   return (
-    <section className="grid grid-cols-2 h-screen w-10/12 relative mt-[-100px]">
-    <picture className="absolute left-1/2 top-0 z-[2] block h-[550px] w-full max-w-[1440px] -translate-x-1/2 select-none">
+    <section className="grid md:grid-cols-2 h-screen w-10/12 gap-10 relative mt-[-100px]">
+    <picture className="absolute left-1/2 top-0 z-[2] block h-2/4 md:h-[550px] w-full max-w-[1440px] -translate-x-1/2 select-none">
       <img src="https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fgradient%2Fheader-gradient.png&w=1200&q=75" alt="gradient" className="w-full h-full"/>
     </picture>
     
     <div className="flex items-center justify-center">
-        <article className="flex flex-col items-start justify-center gap-5 w-9/12">
+        <article className="mt-[100px] flex flex-col items-start justify-center gap-5 w-9/12">
           <div className="flex gap-3 pt-10">
             <img src={tchauzin} alt="" className="w-8 h-8" />
             <h1 className="text-white text-3xl">Hello World!</h1>

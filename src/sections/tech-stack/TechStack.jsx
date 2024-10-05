@@ -25,7 +25,7 @@ const TechStack = () => {
       <img src="https://www.eihabkhan.com/_next/image?url=%2Fassets%2Fgradient%2Fheader-gradient.png&w=1200&q=75" alt="gradient" className="w-full h-full"/>
     </picture>
         <h1 className="text-3xl font-bold z-10">Tech Stack</h1>
-        <section className="grid grid-cols-4 grid-rows-2 gap-8 z-10">
+        <section className="grid grid-cols-1 gap-8 z-10 md:grid-cols-3 lg:grid-cols-4">
             {data ? (
                 data.stack.map((stack) => (
                     <Stack key={stack.name} name={stack.name} image={stack.image}  />

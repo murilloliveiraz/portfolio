@@ -7,6 +7,7 @@ import Sobre from './sections/sobre/Sobre.jsx'
 import Projetos from './sections/projetos/Projetos.jsx'
 import TechStack from './sections/tech-stack/TechStack.jsx'
 import Contato from './sections/contato/Contato.jsx'
+import ProjectDetails from './sections/projectdetails/ProjectDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: '/projetos', element: <Projetos /> },
       { path: '/stack', element: <TechStack /> },
       { path: '/contato', element: <Contato /> },
+      { path: '/projetos/:id', element: <ProjectDetails/> },
       { path: '*', element: <Sobre /> }
     ]
   }

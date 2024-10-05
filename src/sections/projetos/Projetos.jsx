@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Project from './../../components/project/Project';
+import { Link } from 'react-router-dom';
 
 const Projetos = () => {
   const [data, setData] = useState(null);
@@ -26,8 +27,10 @@ const Projetos = () => {
         </picture>
         <h1 className="text-3xl font-bold z-10">Projetos</h1>
         {data ? (
-            data.projects.map((project) => (
-              <Project key={project.title} title={project.title} description={project.description} logo={project.logo} image={project.image} stack={project.stack} />
+            data.projects.map((project, index) => (
+              <Link key={index} to={`/projetos/${index}`} className="flex justify-center items-center">
+                <Project title={project.title} description={project.description} logo={project.logo} image={project.image} stack={project.stack} link={project.link}/>
+              </Link>
             ))
           ) : (
             <p>Carregando projetos...</p>
